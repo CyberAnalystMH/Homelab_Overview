@@ -1,4 +1,3 @@
-# Homelab Overview
 
 # Summary
 
