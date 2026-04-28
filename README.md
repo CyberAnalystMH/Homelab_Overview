@@ -29,7 +29,7 @@ I named my Homelab: **HAVOC**
 
 **Some Drawbacks:** 
 - Over-powered for a Homelab
-- Costly Electrical Bill
+- Costly Electric Bill
 - Sizable (Takes up decent space)
 - Loud
 - Only 4 Drive Bays
