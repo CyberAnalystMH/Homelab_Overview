@@ -42,9 +42,12 @@ I named my Homelab: **HAVOC**
 # Infrastructure Diagram (IPs are Removed)
 
 <img width="2100" height="2270" alt="image" src="https://github.com/user-attachments/assets/e9c6be26-f6f4-4d36-ab56-60b5ae247372" />
+
 (This is still works in progress, this diagram will naturally update as I improve my Homelab)
 
+
 <img width="292" height="578" alt="image" src="https://github.com/user-attachments/assets/aced2ecf-9771-490b-9e69-e639583f21ba" />
+
 (Here's the actual VMs and Containers, some services are new, therefore not included in this project) 
 
 # Infrastructure Diagram Breakdown
