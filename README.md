@@ -13,7 +13,7 @@ I named my Homelab: **HAVOC**
 
 **Hardware:** 
 - A used **R430** from Ebay with **20 Cores** and **64GB RAM**, amazing for home server, it can handle great amount of VMs and storage, despite being 10+ years old.  It's great for Enterprise and small business, it's still being used across different companies.  
-- Another used **R430** from a Friend with **16 Cores** and **74GB RAM**. That one will serve as overall **offline** backup for everything, offline because it's suppose to be redundant but rather extra space and resources consumption for my other hardware.
+- Another used **R430** from a Friend with **16 Cores** and **74GB RAM**. That one will serve as overall **offline** backup for everything, offline because it's not suppose to be redundant but rather extra space and resources consumption for my other hardware.
 - A used **Lenovo ThinkCentre**  with **4 Cores** and **8GB RAM** for 24/7 Docker Services, like browser, music, drawing, etc. They're small so they consume minor amounts of power and can fully run 24/7 with no issues. 
 - Another used **Lenovo ThinkCentre**  with **2 Cores** and **8GB RAM** for more 24/7 Docker Services.
 - **Netgear** 8 Port Switch
