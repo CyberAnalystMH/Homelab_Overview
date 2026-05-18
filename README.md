@@ -11,7 +11,13 @@ I named my Homelab: **HAVOC**
 
 # Setup
 
-**Hardware:** A used **R430** from Ebay with **20 Cores** and **64 RAM**, amazing for home server, it can handle great amount of VMs and storage, despite being 10+ years old.  It's great for Enterprise and small business, it's still being used across different companies.  
+**Hardware:** 
+- A used **R430** from Ebay with **20 Cores** and **64GB RAM**, amazing for home server, it can handle great amount of VMs and storage, despite being 10+ years old.  It's great for Enterprise and small business, it's still being used across different companies.  
+- Another used **R430** from a Friend with **16 Cores** and **74GB RAM**. That one will serve as overall **offline** backup for everything, offline because it's suppose to be redundant but rather extra space and resources consumption for my other hardware.
+- A used **Lenovo ThinkCentre**  with **4 Cores** and **8GB RAM** for 24/7 Docker Services, like browser, music, drawing, etc. They're small so they consume minor amounts of power and can fully run 24/7 with no issues. 
+- Another used **Lenovo ThinkCentre**  with **2 Cores** and **8GB RAM** for more 24/7 Docker Services.
+- **Netgear** 8 Port Switch
+
 
 *Here's my personal Pros and Drawbacks:* 
 
@@ -152,6 +158,46 @@ I named my Homelab: **HAVOC**
 
 **Annotations:** Everything goes to 8.8.8.8 which is my *primary* DNS. My *secondary* is 1.1.1.1. 
 
+
+# Clusters 
+
+<img width="147" height="112" alt="image" src="https://github.com/user-attachments/assets/c6ffbf5d-4e1e-4d7d-8446-5c2f73ac57bc" />
+
+**Annotations:** 
+- **Localhost** is the main server, the R430.
+- **ServerB** is the backup R430.
+- **ServerC** is the first ThinkCentre.
+- **ServerD** is the second ThinkCentre.
+
+<img width="924" height="183" alt="image" src="https://github.com/user-attachments/assets/5aab2f4b-fce2-44c4-aa4d-aa786abfb6ed" />
+
+**Annotations:** Proxmox Clustering is super easy, when you get new hardware, Proxmox allows you to cluster within seconds. 
+
+**Via Homepage Dashboard:** 
+
+<img width="333" height="264" alt="image" src="https://github.com/user-attachments/assets/a4c068d0-acd0-47e4-81e7-96ad6f297f82" />
+
+# Migrations
+
+Services that moved to from **ServerA (Localhost)** to **ServerC**: 
+- SearXNG 
+- Librewolf
+- Navidrome 
+- Homepage
+
+
+# Backup
+
+In Progress...
+
+
+
+
+# Kube Cluster Via VMs 
+
+In Progress...
+
+
 # Conclusions 
 
 As mentioned, this repository will be updated as the project expands, I want to be able to run every service that I use daily, locally. 
@@ -174,21 +220,20 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Purchase 3 small Workstations for a Kubernetes Cluster that must be deployed via Ansible with a fully written out playbook.
 - Purchase another Workstation, install NIC card on it to replace current router. 
 - Purchase a Server Rack
-- 3D print a customized Name Plate for the server. 
+- 3D print a customized Name Plate for the server. ✅
 - Buy several Fans to direct heat outside the closet (yes this is server is in a large closet at home) 
-- Purchase 2 more Blade Servers with similar spec as a fully online backup for all services and data
+- Purchase 1 more Blade Server with similar spec as a fully online backup for all services and data. ✅
 - Use another Blade Server for future Cybersecurity projects. 
-- Add all hardware as a Node to the main Proxmox Server
+- Add all hardware as a Node to the main Proxmox Server. ✅
 - Purchase a small display to display the status of all servers, which include uptime, CPU, GPU, downtime, TEMP and etc.
-- Purchase a GPU for local AI model
-- Migrate all services to an SSD 
-- Implement RAID on the backup Server
-- Purchase HDDs and SSDs
-- Document everything
-- Implement a large ISO repository
-- Allow other users (family) to access certain services 
-
-
+- Purchase a GPU for local AI model.
+- Migrate all services to an SSD.
+- Purchase a VGA monitor. ✅
+- Implement RAID on the backup Server.
+- Purchase HDDs and SSDs.
+- Document everything.
+- Implement a large ISO repository. ✅
+- Allow other users (family) to access certain services. 
 
 
 
