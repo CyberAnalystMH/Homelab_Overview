@@ -179,7 +179,7 @@ I named my Homelab: **HAVOC**
 
 # Migrations
 
-Services that moved to from **ServerA (Localhost)** to **ServerC**: 
+Services that moved to from **ServerA (Localhost)** to **ServerD**: 
 - SearXNG 
 - Librewolf
 - Navidrome 
