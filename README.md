@@ -17,6 +17,8 @@ I named my Homelab: **HAVOC**
 - A used **Lenovo ThinkCentre**  with **4 Cores** and **8GB RAM** for 24/7 Docker Services, like browser, music, drawing, etc. They're small so they consume minor amounts of power and can fully run 24/7 with no issues. 
 - Another used **Lenovo ThinkCentre**  with **2 Cores** and **8GB RAM** for more 24/7 Docker Services.
 - **Netgear** 8 Port Switch
+- A costume made Laptop for Server monitoring and troubleshooting, runs **Raspberry PI 5** that's **4GB** of RAM and it auto displays Grafana for the Cluster when it boots up. 
+
 
 
 *Here's my personal Pros and Drawbacks:* 
@@ -44,6 +46,18 @@ I named my Homelab: **HAVOC**
 
 
 **Side Note:** My overall goal is to update this Homelab repository as my Homelab Havoc grows, this repository will naturally be updated when new stuff is added or changed. 
+
+# Rack Diagram 
+
+<img width="641" height="909" alt="image" src="https://github.com/user-attachments/assets/7d3b17be-8f40-472a-9362-c468263a4c1e" />
+
+**Annotations:** Since it's a rack but rather a computer desk, this diagram does the job of basic visualization of what the rack looks, virtually. 
+
+
+# Physical Rack  
+
+<img width="2525" height="3948" alt="image" src="https://github.com/user-attachments/assets/3b550ad6-9a75-4e7f-815d-1147582d837b" />
+
 
 # Infrastructure Diagram (IPs are Removed)
 
@@ -208,8 +222,11 @@ As mentioned, this repository will be updated as the project expands, I want to 
 
 ---
 
-**Estimated Hours:** 200 Hours 
+**Estimated Hours:** 250 Hours 
 (How much time I've put on this project so far.)
+
+**Estimated Expense:** $996
+(How much money has been spent so far)
 
 **Estimated Uptime:** 8-12 Hours
 (How long is the server on, daily.)
