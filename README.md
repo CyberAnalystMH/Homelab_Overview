@@ -17,7 +17,7 @@ I named my Homelab: **HAVOC**
 - A used **Lenovo ThinkCentre**  with **4 Cores** and **8GB RAM** for 24/7 Docker Services, like browser, music, drawing, etc. They're small so they consume minor amounts of power and can fully run 24/7 with no issues. 
 - Another used **Lenovo ThinkCentre**  with **2 Cores** and **8GB RAM** for more 24/7 Docker Services.
 - **Netgear** 8 Port Switch
-- A costume made Laptop for Server monitoring and troubleshooting, runs **Raspberry PI 5** that's **4GB** of RAM and it auto displays Grafana for the Cluster when it boots up. 
+- A custom made Laptop for Server monitoring and troubleshooting, runs **Raspberry PI 5** that's **4GB** of RAM and it auto displays Grafana for the Cluster when it boots up. 
 
 
 
