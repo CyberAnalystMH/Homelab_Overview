@@ -9,6 +9,8 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
+**Last Update:** 5/19/2026
+
 # Setup
 
 **Hardware:** 
