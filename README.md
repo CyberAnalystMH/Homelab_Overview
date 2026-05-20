@@ -226,7 +226,7 @@ As mentioned, this repository will be updated as the project expands, I want to 
 (How much time I've put on this project so far.)
 
 **Estimated Expense:** $996
-(How much money has been spent so far)
+(How much money has been spent so far.)
 
 **Estimated Uptime:** 8-12 Hours
 (How long is the server on, daily.)
