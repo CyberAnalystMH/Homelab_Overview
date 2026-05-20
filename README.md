@@ -9,7 +9,7 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
-**Last Update:** 5/19/2026
+**Last Update:** 5/20/2026
 
 # Setup
 
@@ -22,8 +22,7 @@ I named my Homelab: **HAVOC**
 - A custom made Laptop for Server monitoring and troubleshooting, runs **Raspberry PI 5** that's **4GB** of RAM and it auto displays Grafana for the Cluster when it boots up. 
 
 
-
-*Here's my personal Pros and Drawbacks:* 
+*Here's my personal Pros and Drawbacks on the **R430s**:* 
 
 **Pros:** 
 - Handles larges amount of data
@@ -212,6 +211,19 @@ In Progress...
 # Kube Cluster Via VMs 
 
 In Progress...
+
+# Security 
+
+**Context:** Since none of my servers are open to the public web, security is as basic as it gets. I mainly follow these basic security rules for the time being: 
+- Good passwords (8-12 characters which includes symbols, letters and numbers).
+- No ports are open to the internet, all ports must be only open on LAN.
+- Update and patch when possible. 
+- Encrypted Password Manager, no plain text passwords.
+- Basic UFW configurations. 
+- SSH keys are managed on an SSH server that allows password-less login. 
+- All hardware machines report back to Wazuh (Lab SIEM)
+
+
 
 
 # Conclusions 
