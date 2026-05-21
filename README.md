@@ -210,7 +210,26 @@ In Progress...
 
 # Kube Cluster Via VMs 
 
-In Progress...
+<img width="239" height="198" alt="image" src="https://github.com/user-attachments/assets/7dace519-0e6b-4e81-b9aa-09e9865036a5" />
+
+**Annotations:** One **Controller** (Master) and **3 Worker Nodes** (Clusters), I've done K3s before with 3 RaspberryPIs and it was much simpler then K8s but K3s is reserved for ARM based compute. This was a lot of fun to set-up, I've managed to document it all so it's much easier to setup the next time. I''ll slowly add more Nodes to it as more resources are available in the future. 
+
+
+<img width="402" height="284" alt="image" src="https://github.com/user-attachments/assets/61e6cc4d-71d5-4d97-887b-f271bdc09984" />
+
+<img width="851" height="207" alt="image" src="https://github.com/user-attachments/assets/e1126ae7-c64e-40cf-91a6-68ed79d9204a" />
+
+
+
+**Annotations:** For now, only a basic NGINX is deployed on the Kube Cluster for the sake of testing purposes, I'm thinking to deploy Gitea to quickly use personal made configurations like scripts, automation, settings and what not. 
+
+**Note:** Kube3Cluster is yet to be present. 
+
+<img width="597" height="102" alt="image" src="https://github.com/user-attachments/assets/15cdde87-f94c-43e8-9d35-68b1beff38c2" />
+
+
+**Annotations:** I'm aware that **.example.com** is unwise due to be a conflicting naming schemes but since I'm mainly just testing Kubernetes and how it works, I have no plans to make any public internet access, it's strictly on my LAN.  
+
 
 # Security 
 
