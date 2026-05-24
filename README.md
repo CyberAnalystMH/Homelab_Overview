@@ -62,7 +62,8 @@ I named my Homelab: **HAVOC**
 
 # Infrastructure Diagram (IPs are Removed)
 
-<img width="2100" height="2270" alt="image" src="https://github.com/user-attachments/assets/e9c6be26-f6f4-4d36-ab56-60b5ae247372" />
+<img width="2100" height="2580" alt="image" src="https://github.com/user-attachments/assets/664d6277-bd3f-47e0-b7d3-6d3b9c414850" />
+
 
 (This is still works in progress, this diagram will naturally update as I improve my Homelab)
 
