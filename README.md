@@ -283,8 +283,8 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Purchase 1 more Blade Server with similar spec as a fully online backup for all services and data. ✅
 - Use another Blade Server for future Cybersecurity projects. 
 - Add all hardware as a Node to the main Proxmox Server. ✅
-- Purchase a small display to display the status of all servers, which include uptime, CPU, GPU, downtime, TEMP and etc.
-- Purchase a GPU for local AI model.
+- Purchase a small display to display the status of all servers, which include uptime, CPU, GPU, downtime, TEMP and etc. ✅
+- Purchase a GPU for local AI model. ✅
 - Migrate all services to an SSD.
 - Purchase a VGA monitor. ✅
 - Implement RAID on the backup Server.
