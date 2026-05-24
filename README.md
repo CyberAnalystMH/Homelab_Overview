@@ -9,7 +9,7 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
-**Last Update:** 5/20/2026
+**Last Update:** 5/24/2026
 
 # Setup
 
@@ -249,6 +249,8 @@ In Progress...
 
 **Annotations:** I've made unfinished project about Wazuh before, I really like the tool, it's easy to configure and learn and a great tool to detect anomalies in general. Wazuh does come with a lot of false alerts but can be easily tuned. My favorite part is the dashboard aspects where you can make so many dashboards with different keywords, values, sources, etc, since it's base on JSON. I do want to dive into ELK next, it's pretty similar to Wazuh but with the setup is take consuming, unlike Wazuh where script is ran. 
 
+
+**Note:** I made the dashboard, however the data on their is mock-up data provided within Wazuh to testout your dashboards. 
 
 # Conclusions 
 
