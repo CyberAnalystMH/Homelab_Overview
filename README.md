@@ -243,6 +243,11 @@ In Progress...
 - All hardware machines report back to Wazuh (Lab SIEM)
 
 
+**Wazuh:**
+
+<img width="1230" height="1177" alt="image" src="https://github.com/user-attachments/assets/c53a8485-10c5-41c0-b56e-5255e0112bdd" />
+
+**Annotations:** I've made unfinished project about Wazuh before, I really like the tool, it's easy to configure and learn and a great tool to detect anomalies in general. Wazuh does come with a lot of false alerts but can be easily tuned. My favorite part is the dashboard aspects where you can make so many dashboards with different keywords, values, sources, etc, since it's base on JSON. I do want to dive into ELK next, it's pretty similar to Wazuh but with the setup is take consuming, unlike Wazuh where script is ran. 
 
 
 # Conclusions 
