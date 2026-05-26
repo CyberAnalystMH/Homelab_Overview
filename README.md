@@ -263,7 +263,7 @@ As mentioned, this repository will be updated as the project expands, I want to 
 
 ---
 
-**Estimated Hours:** 250 Hours 
+**Estimated Hours:** 300 Hours 
 (How much time I've put on this project so far.)
 
 **Estimated Expense:** $996
