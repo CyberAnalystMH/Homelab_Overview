@@ -9,7 +9,7 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
-**Last Update:** 5/24/2026
+**Last Update:** 5/26/2026
 
 # Setup
 
@@ -52,7 +52,7 @@ I named my Homelab: **HAVOC**
 
 <img width="641" height="909" alt="image" src="https://github.com/user-attachments/assets/7d3b17be-8f40-472a-9362-c468263a4c1e" />
 
-**Annotations:** Since it's a rack but rather a computer desk, this diagram does the job of basic visualization of what the rack looks, virtually. 
+**Annotations:** Since it's not a rack but rather a computer desk, this diagram does the job of basic visualization of what the rack looks, virtually. 
 
 
 # Physical Rack  
