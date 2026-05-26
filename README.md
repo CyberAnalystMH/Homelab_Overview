@@ -204,8 +204,20 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 
 # Backup
 
-In Progress...
+<img width="222" height="66" alt="image" src="https://github.com/user-attachments/assets/6da54629-7301-45ab-b708-158df243b81b" />
 
+**Annotations:** **ProxmoxBackupA** is for the main "Production" server, runs as a VM on top of **Proxmox Backup Server** that's mainly offline but turned online when the production server has had significant changes. **ProxmoxBackupB** is for my other cluster and just backup in general, the storage it contains is smaller then ProxmoxBackupA but enough for what's needed. 
+
+
+<img width="572" height="79" alt="image" src="https://github.com/user-attachments/assets/89af2b6c-ad40-40c7-abba-d03d3d9135c1" />
+
+**Annotations:** Both **BackupA** and **BackupB** are on a 2 hour schedule to backup, because the server would be on for a limited time a day to converse power. Proxmox makes backups really easy, all back ups are in EXT4 format, I have not gotten into ZFS yet, I'm planning to do so in the future. I may make a **BackupC** to backup my personal PC and phone, right now the backups are via NextCloud which is maybe a little more convenient but NextCloud is a little slow. 
+
+
+<img width="428" height="346" alt="image" src="https://github.com/user-attachments/assets/05ee93c2-9e17-46ea-bcd5-5e37fb97a973" />
+
+
+**Annotations:** Thus, our infrastructure extends. 
 
 
 
@@ -293,6 +305,16 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Implement a large ISO repository. ✅
 - Allow other users (family) to access certain services. 
 
+**Issues:** 
+- Dell R430 **(ServerB)** has faulty sensors, needs fixed. Due to that, fans are always working at 100%.
+- Dell R430 **(ServerB)** has outdated BIOs. 
+- Dell R430 **(ServerB)** has 2 empty drive bays that could be filled. 
+- All hardware has limited SSD space.
+- Network Switch could be better model. 
+- Despite static IPs, ISP Router seems to force DHCP into some machines. 
+- Some less-important services are down. 
+- Grafana is only only configured for **ServerA**.
+- Limited Storage
 
 
 
