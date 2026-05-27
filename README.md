@@ -222,7 +222,7 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 
 
 
-# Kube Cluster Via VMs 
+# Kubernetes Cluster Via VMs 
 
 <img width="239" height="198" alt="image" src="https://github.com/user-attachments/assets/7dace519-0e6b-4e81-b9aa-09e9865036a5" />
 
