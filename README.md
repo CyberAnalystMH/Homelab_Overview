@@ -9,7 +9,7 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
-**Last Update:** 5/26/2026
+**Last Update:** 5/29/2026
 
 # Setup
 
@@ -224,25 +224,28 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 
 # Kubernetes Cluster Via VMs 
 
-<img width="239" height="198" alt="image" src="https://github.com/user-attachments/assets/7dace519-0e6b-4e81-b9aa-09e9865036a5" />
-
-**Annotations:** One **Controller** (Master) and **3 Worker Nodes** (Clusters), I've done K3s before with 3 RaspberryPIs and it was much simpler then K8s but K3s is reserved for ARM based compute. This was a lot of fun to set-up, I've managed to document it all so it's much easier to setup the next time. I''ll slowly add more Nodes to it as more resources are available in the future. 
+<img width="200" height="154" alt="image" src="https://github.com/user-attachments/assets/55809797-88df-4788-a956-5c52f8ad12a9" />
 
 
-<img width="402" height="284" alt="image" src="https://github.com/user-attachments/assets/61e6cc4d-71d5-4d97-887b-f271bdc09984" />
+**Annotations:** One **Controller** (Master) and **5 Worker Nodes** (Clusters), I've done K3s before with 3 RaspberryPIs and it was much simpler then K8s but K3s is reserved for ARM based compute. This was a lot of fun to set-up, I've managed to document it all so it's much easier to setup the next time. I''ll slowly add more Nodes to it as more resources are available in the future. 
+
+
+<img width="552" height="579" alt="image" src="https://github.com/user-attachments/assets/458fa1a7-3332-4108-9b94-26fd532b470d" />
+
 
 <img width="851" height="207" alt="image" src="https://github.com/user-attachments/assets/e1126ae7-c64e-40cf-91a6-68ed79d9204a" />
 
 
-
-**Annotations:** For now, only a basic NGINX is deployed on the Kube Cluster for the sake of testing purposes, I'm thinking to deploy Gitea to quickly use personal made configurations like scripts, automation, settings and what not. 
-
-**Note:** Kube3Cluster is yet to be present. 
-
-<img width="597" height="102" alt="image" src="https://github.com/user-attachments/assets/15cdde87-f94c-43e8-9d35-68b1beff38c2" />
+<img width="612" height="155" alt="image" src="https://github.com/user-attachments/assets/98596c66-5c9d-495e-ae3f-4aaf7b5190a9" />
 
 
 **Annotations:** I'm aware that **.example.com** is unwise due to be a conflicting naming schemes but since I'm mainly just testing Kubernetes and how it works, I have no plans to make any public internet access, it's strictly on my LAN.  
+
+
+<img width="1045" height="515" alt="image" src="https://github.com/user-attachments/assets/c9439ffe-a0e0-440a-9efa-b564221843a2" />
+
+**Annotations:** Gitea is a lightweight, Open-Source platform, very similar to Gitlab and Github that allows you to host your repositories locally. The reasons I deployed it is so I'm able to quickly access my configure settings, yamls, playbooks, documentations and etc. I do want to deploy other services on my Cluster, but for now Gitea is good start. 
+
 
 
 # Security 
@@ -296,15 +299,17 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Purchase 1 more Blade Server with similar spec as a fully online backup for all services and data. ✅
 - Use another Blade Server for future Cybersecurity projects. 
 - Add all hardware as a Node to the main Proxmox Server. ✅
-- Purchase a small display to display the status of all servers, which include uptime, CPU, GPU, downtime, TEMP and etc. ✅
-- Purchase a GPU for local AI model. ✅
+- Purchase a small display to display the status of all servers, which include uptime, CPU, GPU, downtime, TEMP and etc.
+- Purchase a GPU for local AI model.
 - Migrate all services to an SSD.
 - Purchase a VGA monitor. ✅
 - Implement RAID on the backup Server.
 - Purchase HDDs and SSDs.
 - Document everything.
 - Implement a large ISO repository. ✅
-- Allow other users (family) to access certain services. 
+- Allow other users (family) to access certain services.
+- Implement ZFS. 
+- Deploy Gitea on Kubernetes ✅
 
 **Issues:** 
 - Dell R430 **(ServerB)** has faulty sensors, needs fixed. Due to that, fans are always working at 100%.
