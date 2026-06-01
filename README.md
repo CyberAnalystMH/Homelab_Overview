@@ -9,7 +9,7 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
-**Last Update:** 5/29/2026
+**Last Update:** 6/1/2026
 
 # Setup
 
@@ -269,6 +269,26 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 
 **Note:** I made the dashboard, however the data on their is mock-up data provided within Wazuh to testout your dashboards. 
 
+
+# Automation 
+
+**Ansible:** 
+
+<img width="322" height="96" alt="image" src="https://github.com/user-attachments/assets/02215ab6-50a7-47d1-ab05-cfb01adc0fa4" />
+
+**Annotations:** This a new fun project to practice but also find a solution to automatically configure Control Plane and Node Workers with servers without having to do it via the command line. 
+
+<img width="452" height="1169" alt="image" src="https://github.com/user-attachments/assets/31ac3095-daba-46d1-91c7-cd89f2c4fad0" />
+
+
+**Annotations:** **Still work in progress**, most of the aspects of the plane book is shared between the Control Plane and Node Workers, I'm simply applying the commands via Ansible instead of SSH into the machine and do the commands manually. I'm doing this via Ansible Roles instead of one large Ansible file, keeps it much cleaner and for me and others to understand. 
+
+
+
+
+
+
+
 # Conclusions 
 
 As mentioned, this repository will be updated as the project expands, I want to be able to run every service that I use daily, locally. 
@@ -310,6 +330,8 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Allow other users (family) to access certain services.
 - Implement ZFS. 
 - Deploy Gitea on Kubernetes ✅
+- Implement Ansible 
+- Implement Rsync for some automations. 
 
 **Issues:** 
 - Dell R430 **(ServerB)** has faulty sensors, needs fixed. Due to that, fans are always working at 100%.
