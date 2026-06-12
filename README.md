@@ -9,7 +9,7 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
-**Last Update:** 6/1/2026
+**Last Update:** 6/12/2026
 
 # Setup
 
@@ -284,9 +284,23 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 **Annotations:** **Still work in progress**, most of the aspects of the plane book is shared between the Control Plane and Node Workers, I'm simply applying the commands via Ansible instead of SSH into the machine and do the commands manually. I'm doing this via Ansible Roles instead of one large Ansible file, keeps it much cleaner and for me and others to understand. 
 
 
+# Web Server 
+
+<img width="750" height="921" alt="image" src="https://github.com/user-attachments/assets/11cd3764-a423-4dc0-a69d-e46f053ac89e" />
+
+
+**Annotations:** Big aspect of Linux is web servers, so I decided to make a comprehensive project working with HTTPD, MariaDB, LAMP stack in general. 
+
+<img width="854" height="1206" alt="image" src="https://github.com/user-attachments/assets/6ec57b58-4420-4761-a72c-7118c743dcdc" />
+
+<img width="694" height="404" alt="image" src="https://github.com/user-attachments/assets/08af276e-f600-4f4a-b0da-5fae17b49cee" />
+
+
+**Annotations:** Here's the actual Web Server and Database. 
 
 
 
+**For more in depth overview, visit the project:** https://github.com/CyberAnalystMH/Web_Server
 
 
 # Conclusions 
@@ -325,13 +339,16 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Purchase a VGA monitor. ✅
 - Implement RAID on the backup Server.
 - Purchase HDDs and SSDs.
-- Document everything.
+- Document everything. ✅
 - Implement a large ISO repository. ✅
 - Allow other users (family) to access certain services.
 - Implement ZFS. 
 - Deploy Gitea on Kubernetes ✅
 - Implement Ansible 
 - Implement Rsync for some automations. 
+- Create a Web Sever and DB. ✅
+- Create a personal VPS. ✅
+
 
 **Issues:** 
 - Dell R430 **(ServerB)** has faulty sensors, needs fixed. Due to that, fans are always working at 100%.
