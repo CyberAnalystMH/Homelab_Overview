@@ -298,10 +298,13 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 
 **Annotations:** Here's the actual Web Server and Database. 
 
-
-
 **For more in depth overview, visit the project:** https://github.com/CyberAnalystMH/Web_Server
 
+# Documentations
+
+<img width="760" height="769" alt="image" src="https://github.com/user-attachments/assets/bd90818e-a723-4d7e-96d2-e24b0283bc98" />
+
+**Annotations:** I keep a backup of my Forgejo but I also keep another backup on Obsidian. It's a fun way to explore notes and find what you need easily by using tags and colors. It's sort of like art. It's the same exact notes I have on my Forgejo but more "complex", I like Forgejo for it's simplicity and speed.
 
 # Conclusions 
 
@@ -348,6 +351,7 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Implement Rsync for some automations. 
 - Create a Web Sever and DB. ✅
 - Create a personal VPS. ✅
+- Create Obsidian Vault. ✅
 
 
 **Issues:** 
