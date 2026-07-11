@@ -302,7 +302,8 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 
 # Documentations
 
-<img width="760" height="769" alt="image" src="https://github.com/user-attachments/assets/bd90818e-a723-4d7e-96d2-e24b0283bc98" />
+<img width="971" height="968" alt="image" src="https://github.com/user-attachments/assets/e874b439-c36e-4582-ba68-b6fd1fa5bef0" />
+
 
 **Annotations:** I keep a backup of my Forgejo but I also keep another backup on Obsidian. It's a fun way to explore notes and find what you need easily by using tags and colors. It's sort of like art. It's the same exact notes I have on my Forgejo but more "complex", I like Forgejo for it's simplicity and speed.
 
