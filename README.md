@@ -17,8 +17,10 @@ I named my Homelab: **HAVOC**
 - A used **R430** from Ebay with **20 Cores** and **64GB RAM**, amazing for home server, it can handle great amount of VMs and storage, despite being 10+ years old.  It's great for Enterprise and small business, it's still being used across different companies.  
 - Another used **R430** from a Friend with **16 Cores** and **74GB RAM**. That one will serve as overall **offline** backup for everything, offline because it's not suppose to be redundant but rather extra space and resources consumption for my other hardware.
 - A used **Lenovo ThinkCentre**  with **4 Cores** and **8GB RAM** for 24/7 Docker Services, like browser, music, drawing, etc. They're small so they consume minor amounts of power and can fully run 24/7 with no issues. 
-- Another used **Lenovo ThinkCentre**  with **2 Cores** and **8GB RAM** for more 24/7 Docker Services.
+- Another used **Lenovo ThinkCentre**  with **2 Cores** and **8GB RAM** for 24/7 Docker Services.
 - **Netgear** 8 Port Switch
+- **RaspberryPI 4** with **4GB** of RAM for 24/7 Docker Services.
+- **RaspberryPI 4** with **2GB** of RAM for 24/7 Docker Services and also clustered with the other **RaspberryPI 4**.
 - A custom made Laptop for Server monitoring and troubleshooting, runs **Raspberry PI 5** that's **4GB** of RAM and it auto displays Grafana for the Cluster when it boots up. 
 
 
@@ -246,6 +248,13 @@ Services that moved to from **ServerA (Localhost)** to **ServerD**:
 
 **Annotations:** Gitea is a lightweight, Open-Source platform, very similar to Gitlab and Github that allows you to host your repositories locally. The reasons I deployed it is so I'm able to quickly access my configure settings, yamls, playbooks, documentations and etc. I do want to deploy other services on my Cluster, but for now Gitea is good start. 
 
+# K3S on 2 RaspberryPIs
+
+I've done K3s before, it's much simpler then K8s. I have not decided what to deploy on the PI Cluster just yet, I'm looking for something very lightweight. Maybe I''ll migrate my Homepage over to the PI Cluster, we will see.
+
+<img width="507" height="84" alt="image" src="https://github.com/user-attachments/assets/f7f05091-55d3-41b1-850b-1b901087847d" />
+
+**Annotations:** I figured it made sense to continue the same naming schema since the PIs are a hardware. Both PIs add up to **8 Cores** and **10 RAM** which should be plenty to run several services. 
 
 
 # Security 
