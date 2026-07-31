@@ -9,7 +9,7 @@ I named my Homelab: **HAVOC**
 
 **Why:** Sounded cool but also when Homelabbing, things go wrong all the time, it's part of the fun and the learning. 
 
-**Last Update:** 6/12/2026
+**Last Update:** 7/31/2026
 
 # Setup
 
@@ -21,8 +21,8 @@ I named my Homelab: **HAVOC**
 - **Netgear** 8 Port Switch
 - **RaspberryPI 4** with **4GB** of RAM for 24/7 Docker Services.
 - **RaspberryPI 4** with **2GB** of RAM for 24/7 Docker Services and also clustered with the other **RaspberryPI 4**.
-- A custom made Laptop for Server monitoring and troubleshooting, runs **Raspberry PI 5** that's **4GB** of RAM and it auto displays Grafana for the Cluster when it boots up. 
-
+- **Custom PC** with **8GB** of RAM for 24/7 Docker Services.
+ - A custom made Laptop for Server monitoring and troubleshooting, runs **Raspberry PI 5** that's **4GB** of RAM and it auto displays Grafana for the Cluster when it boots up. 
 
 *Here's my personal Pros and Drawbacks on the **R430s**:* 
 
@@ -316,6 +316,42 @@ I've done K3s before, it's much simpler then K8s. I have not decided what to dep
 
 **Annotations:** I keep a backup of my Forgejo but I also keep another backup on Obsidian. It's a fun way to explore notes and find what you need easily by using tags and colors. It's sort of like art. It's the same exact notes I have on my Forgejo but more "complex", I like Forgejo for it's simplicity and speed.
 
+# Rack Diagram (UPDATED)
+
+<img width="642" height="1020" alt="image" src="https://github.com/user-attachments/assets/f9b0f0e8-8f4c-4f01-8749-e7839c0822db" />
+
+
+# Infrastructure Diagram (UPDATED)
+
+<img width="952" height="1164" alt="image" src="https://github.com/user-attachments/assets/5998b575-ba5f-4bd4-8072-c6c8f019644f" />
+
+**Annotations:** Now that my infrastructure a lot larger, I regret having every service being a separate VM. It's a lot to maintain for a Homelab. But perhaps, I don't regret it since in the world you're also managing large amounts of machines for clients and companies. 
+
+# Local LLM
+
+<img width="203" height="43" alt="image" src="https://github.com/user-attachments/assets/e4140760-1025-4a40-89e1-5fc479d4b89f" />
+
+**Annotations:** I wanted to learn more about AI and how it works instead of just knowing how to use it, so I installed a Local LLM that is within the range of my GPU (**Quadro M4000**) and it's not the fastest, I think because the system lacks RAM. I also think I might able to install a larger model because each time I run a prompt my GPU is using 40%-75% utilization. 
+
+<img width="407" height="64" alt="image" src="https://github.com/user-attachments/assets/433ed197-e234-4061-ad40-a15af60ec2fc" />
+
+**Annotations:** Doing some research, I found that Qwen is the best for my GPU. I probably will try other models but this model seems get stuff I need done.
+
+<img width="1261" height="88" alt="image" src="https://github.com/user-attachments/assets/c514ff70-2a38-4edf-9a9d-778989f5bee5" />
+
+**Annotations:** Then, I gave it a very basic system prompt to try it out. I will mainly be using this AI system for testing and maybe write simple scripts. 
+
+# IoT Sensor
+
+<img width="1212" height="700" alt="image" src="https://github.com/user-attachments/assets/1394fdee-2f21-4a65-bfb0-b04724f9738f" />
+
+**Annotations:** I enjoy IoT and surely I can buy a nice professional sensor for each but why bother when you can create your own sensor, I already had all the components needed. 
+
+<img width="740" height="634" alt="image" src="https://github.com/user-attachments/assets/e585b290-e85e-4746-8fe1-4afc5f1e745f" />
+
+**Annotations:** I also enjoy 3D Modelling and 3D printing. I've been a 3D artist past 7 years. Projects like this gives me an excuse to make something.
+
+
 # Conclusions 
 
 As mentioned, this repository will be updated as the project expands, I want to be able to run every service that I use daily, locally. 
@@ -329,7 +365,7 @@ As mentioned, this repository will be updated as the project expands, I want to 
 **Estimated Hours:** 300 Hours 
 (How much time I've put on this project so far.)
 
-**Estimated Expense:** $996
+**Estimated Expense:** $1150
 (How much money has been spent so far.)
 
 **Estimated Uptime:** 8-12 Hours
@@ -340,9 +376,9 @@ As mentioned, this repository will be updated as the project expands, I want to 
 **Next Steps:** 
 - Purchase 3 small Workstations for a Kubernetes Cluster that must be deployed via Ansible with a fully written out playbook.
 - Purchase another Workstation, install NIC card on it to replace current router. 
-- Purchase a Server Rack
+- Purchase a Server Rack.
 - 3D print a customized Name Plate for the server. ✅
-- Buy several Fans to direct heat outside the closet (yes this is server is in a large closet at home) 
+- Buy several Fans to direct heat outside the closet (yes this is server is in a large closet at home).
 - Purchase 1 more Blade Server with similar spec as a fully online backup for all services and data. ✅
 - Use another Blade Server for future Cybersecurity projects. 
 - Add all hardware as a Node to the main Proxmox Server. ✅
@@ -357,27 +393,30 @@ As mentioned, this repository will be updated as the project expands, I want to 
 - Allow other users (family) to access certain services.
 - Implement ZFS. 
 - Deploy Gitea on Kubernetes ✅
-- Implement Ansible 
+- Implement Ansible.
 - Implement Rsync for some automations. 
 - Create a Web Sever and DB. ✅
 - Create a personal VPS. ✅
 - Create Obsidian Vault. ✅
-
+- Get More RAM for LLM Machine.
+- Run Cockpit On RaspberyPI. ✅
 
 **Issues:** 
 - Dell R430 **(ServerB)** has faulty sensors, needs fixed. Due to that, fans are always working at 100%.
-- Dell R430 **(ServerB)** has outdated BIOs. 
-- Dell R430 **(ServerB)** has 2 empty drive bays that could be filled. 
+- Dell R430 **(ServerB)** has outdated BIOs. ✅
+	- **BIOS Updated.**
+- Dell R430 **(ServerB)** has 2 empty drive bays that could be filled. ✅
+	- **Fixed, all Drive Bays are filled now.**
 - All hardware has limited SSD space.
-- Network Switch could be better model. 
-- Despite static IPs, ISP Router seems to force DHCP into some machines. 
-- Some less-important services are down. 
+- Network Switch could be better model (Ran out of Ports). 
+- Despite static IPs, ISP Router seems to force DHCP into some machines. ✅
+	- **Fixed, by forcing OS to stop requesting IP Via DHCP.** 
+- Some less-important services are down. ✅
+	- **Fixed, those services simply changed IPs, I gave those services static IP and updated it's links on Homepage.**
 - Grafana is only only configured for **ServerA**.
-- Limited Storage
+- Limited Storage ✅
+	- **I think 17TB is plenty for a small Homelab that handles personal and family data.**
 
-
-
-  
 
 
 
