@@ -345,7 +345,7 @@ I've done K3s before, it's much simpler then K8s. I have not decided what to dep
 
 <img width="1212" height="700" alt="image" src="https://github.com/user-attachments/assets/1394fdee-2f21-4a65-bfb0-b04724f9738f" />
 
-**Annotations:** I enjoy IoT and surely I can buy a nice professional sensor for each but why bother when you can create your own sensor, I already had all the components needed. 
+**Annotations:** I enjoy IoT and surely I can buy a nice professional sensor for cheap but why bother when you can create your own sensor, I already had all the components needed. 
 
 <img width="740" height="634" alt="image" src="https://github.com/user-attachments/assets/e585b290-e85e-4746-8fe1-4afc5f1e745f" />
 
